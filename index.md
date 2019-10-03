@@ -1,3 +1,3 @@
-<!DOCTYPE html>
+!DOCTYPE html
 <html>
 <title>Vortex</title>
