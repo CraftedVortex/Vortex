@@ -1,1 +1,1 @@
-# alright this is just the readme for the website please leave
+# MG32 was here :ghost:
