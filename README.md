@@ -1,3 +1,3 @@
 # Jailbreak - Chat and Support
-# Website
+# Website by CraftedVortex & MG32
 http://www.vortexunleashed.ml/
