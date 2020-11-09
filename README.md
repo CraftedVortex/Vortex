@@ -1,2 +1,3 @@
-# MG32 was here :ghost:
+# Jailbreak - Chat and Support
+# Website
 http://www.vortexunleashed.ml/
