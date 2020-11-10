@@ -6,6 +6,7 @@ http://www.vortexunleashed.ml/
 - Tutorials and News
 - Logo and images
 - Themes
+- Jailbreak.ipa
 - CSS
 - Ads
 
@@ -17,3 +18,4 @@ http://www.vortexunleashed.ml/
 # MG32's To do list
 - Dark Mode Detection
 - 404 Page Design
+- ~~Web Clip~~
