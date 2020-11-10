@@ -1,5 +1,5 @@
 # Jailbreak - Chat and Support by CraftedVortex & MG32
-http://www.vortexunleashed.ml/
+https://www.vortexunleashed.ml/
 
 # (Optional) To do list
 - Dark Mode Detection
