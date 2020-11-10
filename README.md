@@ -1,7 +1,19 @@
-# Jailbreak - Chat and Support
-# Website by CraftedVortex & MG32
+# Jailbreak - Chat and Support by CraftedVortex & MG32
 http://www.vortexunleashed.ml/
-# To do list
+
+# (Optional) To do list
+- Dark Mode Detection
+- Tutorials and News
+- Logo and images
+- Themes
 - CSS
-- All Pages
-- Logo
+- Ads
+
+# CraftedVortex's To do list
+- (Add)
+- (Add)
+- (Add)
+
+# MG32's To do list
+- Dark Mode Detection
+- 404 Page Design
