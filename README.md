@@ -3,7 +3,7 @@ https://www.vortexunleashed.ml/
 
 # To do list (Optional, anyone can do.)
 - Mobile and PC Navigation Menu
-- Dark Mode Detection
+- Appearance Detection
 - Tutorials and News
 - Logo and images
 - Jailbreak.ipa
@@ -18,7 +18,7 @@ https://www.vortexunleashed.ml/
 - (Add)
 
 # MG32's To do list
-- Dark Mode Detection
+- Appearance Detection
 - Mobile and PC Navigation Menu
 - Settings
 
