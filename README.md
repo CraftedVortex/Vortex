@@ -1,5 +1,6 @@
 # Jailbreak - Chat and Support by CraftedVortex & MG32
 https://www.vortexunleashed.ml/
+https://www.vortexunleashed.ml/Labs/labsindex
 
 # To do list (Optional, anyone can do.)
 - Mobile and PC Navigation Menu
