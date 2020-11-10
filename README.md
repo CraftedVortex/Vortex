@@ -5,8 +5,8 @@ http://www.vortexunleashed.ml/
 - Dark Mode Detection
 - Tutorials and News
 - Logo and images
-- Themes
 - Jailbreak.ipa
+- Themes
 - CSS
 - Ads
 
