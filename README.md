@@ -17,5 +17,5 @@ https://www.vortexunleashed.ml/
 
 # MG32's To do list
 - Dark Mode Detection
-- 404 Page Design
+- ~~404 Page Design~~
 - ~~Web Clip~~
