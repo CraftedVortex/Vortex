@@ -1,8 +1,8 @@
 # Jailbreak - Chat and Support by CraftedVortex & MG32
-https://www.vortexunleashed.ml/
-https://www.vortexunleashed.ml/Labs/labsindex
+https://www.jailbreakers.ml/
+https://www.jailbreakers.ml/Labs/labsindex
 
-# To do list (Optional, anyone can do.)
+# To do list
 - Mobile and PC Navigation Menu
 - Appearance Detection
 - Tutorials and News
@@ -13,15 +13,6 @@ https://www.vortexunleashed.ml/Labs/labsindex
 - CSS
 - Ads
 
-# CraftedVortex's To do list
-- (Add)
-- (Add)
-- (Add)
-
-# MG32's To do list
-- Appearance Detection
-- Mobile and PC Navigation Menu
-- Settings
 
 # Finished
 - ~~Main Page & Buttons~~
