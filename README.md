@@ -1,6 +1,6 @@
 # Jailbreak - Chat and Support by CraftedVortex & MG32
 https://www.jailbreakers.ml/
-https://www.jailbreakers.ml/Labs/labsindex
+https://www.jailbreakers.ml/Labs/labshttps://www.jailbreakers.ml/
 
 # To do list
 - Mobile and PC Navigation Menu
