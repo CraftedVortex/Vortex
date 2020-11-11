@@ -26,13 +26,13 @@ function initTheme() {
         localStorage.getItem('darkSwitch') !== null &&
         localStorage.getItem('darkSwitch') === 'dark';
     if (darkThemeSelected) {
-        darkSwitch.checked = true;
+        darkSwitch.checked = false;
         document.body.setAttribute('data-theme', 'dark');
     } else if (systemPrefersDarkMode) {
-        darkSwitch.checked = true;
+        darkSwitch.checked = false;
         document.body.setAttribute('data-theme', 'dark');
     } else {
-        darkSwitch.checked = false;
+        darkSwitch.checked = true;
         document.body.removeAttribute('data-theme');
     }
 }
