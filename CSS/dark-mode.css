@@ -29,3 +29,7 @@
     background-color: #111 !important;
     color: #eee !important;
 }
+
+[data-theme="dark"] #resources-div {
+    background-color: #111 !important;
+}
