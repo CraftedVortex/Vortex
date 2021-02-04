@@ -39,3 +39,7 @@
     height: 7%;
     top: 0;
 }
+
+#dark-mode-div {
+    background-color: white;
+}

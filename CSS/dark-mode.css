@@ -25,3 +25,7 @@
     color: #eee !important;
 }
 
+[data-theme="dark"] #dark-mode-div {
+    background-color: #111 !important;
+    color: #eee !important;
+}
