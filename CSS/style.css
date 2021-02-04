@@ -23,3 +23,15 @@
 .card-subtitle {
     margin: 0.5%;
 }
+
+.card img {
+    border-radius: 20%;
+}
+
+.nav {
+    position: fixed;
+    left: 60vw;
+    z-index: 2;
+    background-color: #111;
+    opacity: 1;
+}
