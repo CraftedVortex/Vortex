@@ -32,7 +32,7 @@
 
 .nav {
     position: fixed;
-    left: 60vw;
+    right: 0;
     z-index: 2;
     background-color: white;
     opacity: 1;
