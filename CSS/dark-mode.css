@@ -19,3 +19,9 @@
     background-color: #111 !important;
     color: #eee !important;
 }
+
+[data-theme="dark"] .nav {
+    background-color: #111 !important;
+    color: #eee !important;
+}
+

@@ -32,6 +32,6 @@
     position: fixed;
     left: 60vw;
     z-index: 2;
-    background-color: #111;
+    background-color: white;
     opacity: 1;
 }
