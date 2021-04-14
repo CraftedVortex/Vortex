@@ -50,11 +50,490 @@
                 </p>
         </main>
 
-        <footer class="mt-auto ">
-            <p>2020-2021 Made by CraftedVortex, MG32, & Sangster</p>
+        <main class="info-page">
+            <h2>Tutorials</h2>
+      
+            <ul class="command-filter-menu">
+              <li class="command-filter-menu-item">AI</li>
+              <li class="command-filter-menu-item">Characters</li>
+              <li class="command-filter-menu-item">Fun</li>
+              <li class="command-filter-menu-item">Moderation</li>
+              <li class="command-filter-menu-item">Music</li>
+              <li class="command-filter-menu-item">Image</li>
+              <li class="command-filter-menu-item">SFW</li>
+              <li class="command-filter-menu-item">NSFW</li>
+              <li class="command-filter-menu-item">Utility</li>
+              <li class="command-filter-menu-item">Starfiles</li>
+              <li><div class="spacer"></div></li>
+              <li class="search-bar">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M23.809 21.646l-6.205-6.205c1.167-1.605 1.857-3.579 1.857-5.711 0-5.365-4.365-9.73-9.731-9.73-5.365 0-9.73 4.365-9.73 9.73 0 5.366 4.365 9.73 9.73 9.73 2.034 0 3.923-.627 5.487-1.698l6.238 6.238 2.354-2.354zm-20.955-11.916c0-3.792 3.085-6.877 6.877-6.877s6.877 3.085 6.877 6.877-3.085 6.877-6.877 6.877c-3.793 0-6.877-3.085-6.877-6.877z"/></svg>
+                <input type="text" placeholder="Search" name="search-bar" id="searchbar">
+              </li>
+            </ul>
+      
+            <div class="commands-container">
+              <!-- AI -->
+              <div class="command-card ai hide">
+                <h3>Ask</h3>
+                <p>Ask a question to the bot</p>
+              </div>
+              
+              <!-- Characters -->
+              <div class="command-card chr hide">
+                <h3>character create</h3>
+                <p>
+                  Create a new character
+                </p>
+              </div>
+              <div class="command-card chr hide">
+                <h3>character delete [ID]</h3>
+                <p>
+                  Delete a character
+                </p>
+              </div>
+              <div class="command-card chr hide">
+                <h3>character view [ID]</h3>
+                <p>
+                  View a character
+                </p>
+              </div>
+              <div class="command-card chr hide">
+                <h3>character list [user]</h3>
+                <p>
+                  List all characters that a user have
+                </p>
+              </div>
+              <div class="command-card chr hide">
+                <h3>startsession [character ID] [Session ID]</h3>
+                <p>
+                  Start a new session with the character and session ID set above
+                </p>
+              </div>
+              <div class="command-card chr hide">
+                <h3>stopsession [Session ID]</h3>
+                <p>
+                  Stop a session using the session ID, or leave the session ID blank to end all sessions
+                </p>
+              </div>
+              <!-- Fun -->
+              <div class="command-card fun hide">
+                <h3>Eightball</h3>
+                <p>
+                  Ask the mighty eightball about something
+                </p>
+              </div>
+              <div class="command-card fun hide">
+                <h3>addcount</h3>
+                <p>
+                  Make a channel a counting channel
+                </p>
+              </div>
+              <div class="command-card fun hide">
+                <h3>removecount</h3>
+                <p>
+                  make the channel nolonger a counting channel
+                </p>
+              </div>
+              <div class="command-card fun hide">
+                <h3>urban [term]</h3>
+                <p>
+                  Get me the definition of a word in urban dictionary
+                </p>
+              </div>
+              <div class="command-card fun hide">
+                <h3>HowGay</h3>
+                <p>How gay is he?</p>
+              </div>
+              <div class="command-card fun hide">
+                <h3>sayas [user] [content]</h3>
+                <p>Say a message as another user!</p>
+              </div>
+              <!-- Moderation -->
+              <div class="command-card mod hide">
+                <h3>Ban</h3>
+                <p>Get rid of pesty people</p>
+              </div>
+              <div class="command-card mod hide">
+                <h3>Kick</h3>
+                <p>
+                  Give someone a kick in the a$$
+                </p>
+              </div>
+              <div class="command-card mod hide">
+                <h3>Clear</h3>
+                <p>
+                  Delete any amount of messages
+                </p>
+              </div>
+              <div class="command-card mod hide">
+                <h3>Mute</h3>
+                <p>Silence!! members</p>
+              </div>
+              <div class="command-card mod hide">
+                <h3>Unmute</h3>
+                <p>Release their stinky mouth</p>
+              </div>
+              <div class="command-card mod hide">
+                <h3>Unban</h3>
+                <p>Open the door again :O</p>
+              </div>
+      
+              <!-- Music -->
+              <div class="command-card mus hide">
+                <h3>Play [URL/Song to search for]</h3>
+                <p>Play some tunes! [Yes, even LIVE videos are supported]</p>
+              </div>
+              <div class="command-card mus hide">
+                <h3>Pause</h3>
+                <p>Tempoarily stop the party</p>
+              </div>
+              <div class="command-card mus hide">
+                <h3>resume</h3>
+                <p>Continue the party you paused</p>
+              </div>
+              <div class="command-card mus hide">
+                <h3>Stop</h3>
+                <p>Stop the tunes and clear the queue too :O</p>
+              </div>
+              <div class="command-card mus hide">
+                <h3>Skip</h3>
+                <p>Skip that nasty song :|</p>
+              </div>
+              <div class="command-card mus hide">
+                <h3>Join/Summon</h3>
+                <p>
+                  Make the bot join the voice channel
+                </p>
+              </div>
+              <div class="command-card mus hide">
+                <h3>Leave</h3>
+                <p>
+                  Make the bot leave the voice channel
+                </p>
+              </div>
+              <div class="command-card mus hide">
+                <h3>Queue</h3>
+                <p>View the song queue</p>
+              </div>
+              <div class="command-card mus hide">
+                <h3>now</h3>
+                <p>Show em what's on the DJ pad</p>
+              </div>
+              <div class="command-card mus hide">
+                <h3>shuffle</h3>
+                <p>Tell the DJ to shuffle the queue up</p>
+              </div>
+              <div class="command-card mus hide">
+                <h3>remove [queue pos]</h3>
+                <p>Remove a song from the queue (using it's queue pos)</p>
+              </div>
+              <div class="command-card mus hide">
+                <h3>Volume</h3>
+                <p>
+                  Set the bot's volume to any percentage
+                </p>
+              </div>
+              <div class="command-card mus hide">
+                <h3>loop</h3>
+                <p>
+                  Non stop partyyyy!!!
+                </p>
+              </div>
+              <div class="command-card mus hide">
+                <h3>Lyric (coming soon!)</h3>
+                <p>
+                  Get the lyrics to the current song you're listening to!
+                </p>
+              </div>
+      
+              <!-- Image -->
+              <div class="command-card img hide">
+                <h3>bunny</h3>
+                <p>
+                Command made for  my friend slylonewolf47 
+                </p>
+              </div>
+              <div class="command-card img hide">
+                <h3>wtiger</h3>
+                <p>
+                  Command made for my friend Tech
+                </p>
+              </div>
+              <div class="command-card img hide">
+                <h3>Dank</h3>
+                <p>
+                  Serve fresh or bad memes for your eyes
+                </p>
+              </div>
+              <div class="command-card img hide">
+                <h3>shiba</h3>
+                <p>
+                  Gimme a image of a cute shiba!
+                </p>
+              </div>
+              <div class="command-card img hide">
+                <h3>fwolf</h3>
+                <p>
+                  Gimme a image of a feral wolf!
+                </p>
+              </div>
+              <div class="command-card img hide">
+                <h3>husky</h3>
+                <p>
+                  Gimme a image of a cute husky!
+                </p>
+              </div>
+              <div class="command-card img hide">
+                <h3>doggy</h3>
+                <p>
+                  Gimme a image of a cute lil (or not) doggy!
+                </p>
+              </div>
+              <div class="command-card img hide">
+                <h3>yamper</h3>
+                <p>
+                  Gimme a image of a cute yamper!
+                </p>
+              </div>
+              <div class="command-card img hide">
+                <h3>wolf</h3>
+                <p>
+                  Same as fwolf, but not feral
+                </p>
+              </div>
+              <div class="command-card img hide">
+                <h3>foxbear</h3>
+                <p>
+                  Uhh, tbh this one is not really outputting the images that originally I plan for it to output so, have at it?
+                </p>
+              </div>
+              <div class="command-card img hide">
+                <h3>raccoon</h3>
+                <p>
+                  Fatty (or not) racoons [/ban RocketRacoon :p]
+                </p>
+              </div>
+              <div class="command-card img hide">
+                <h3>panda</h3>
+                <p>
+                  Cute pandas!!!!
+                </p>
+              </div>
+              <div class="command-card img hide">
+                <h3>wolverine</h3>
+                <p>
+                  Sometime cute, sometime buff, sometime even both :)
+                </p>
+              </div>
+      
+              <div class="command-card img hide">
+                <h3>protogen</h3>
+                <p>
+                  Can't hold me back from seeing these adorable bleppers!
+                </p>
+              </div>
+              <!-- SFW -->
+              <div class="command-card sfw hide">
+                <h3>lick [user]</h3>
+                <p>Lick someone!.</p>
+              </div>
+              <div class="command-card sfw hide">
+                <h3>kiss [user]</h3>
+                <p>Give someone a kiss!</p>
+              </div>
+              <div class="command-card sfw hide">
+                <h3>hug [user]</h3>
+                <p>TACTICAL HUG INCOMING!</p>
+              </div>
+              <div class="command-card sfw hide">
+                <h3>cuddle [user]</h3>
+                <p>Give someone a warm cuddle</p>
+              </div>
+              <!-- NSFW -->
+              <div class="command-card nsfw hide">
+                <h3>Porn</h3>
+                <p>Porn? Yes ma'am... or sir.</p>
+              </div>
+              <div class="command-card nsfw hide">
+                <h3>Hentai</h3>
+                <p>
+                  Hentai command for your Hentai needs
+                </p>
+              </div>
+              <div class="command-card nsfw hide">
+                <h3>Furryporn</h3>
+                <p>Fully Approved by THK now!</p>
+              </div>
+              <div class="command-card nsfw hide">
+                <h3>e621</h3>
+                <p>Query some e621 porn/or sfw stuff for your eye</p>
+              </div>
+              <div class="command-card nsfw hide">
+                <h3>nbulge</h3>
+                <p>Rawr x3 *nuzzles* how are you *pounces on you* you're so warm o3o *notices you have a bulge* [I hate myself]</p>
+              </div>
+              <div class="command-card nsfw hide">
+                <h3>nhug</h3>
+                <p>hug someone in a naughty way</p>
+              </div>
+              <div class="command-card nsfw hide">
+                <h3>ncuddle</h3>
+                <p>OwO cuddle</p>
+              </div>
+              <div class="command-card nsfw hide">
+                <h3>nkiss</h3>
+                <p>Kissing, but NSFW [you know what i mean]</p>
+              </div>
+              <div class="command-card nsfw hide">
+                <h3>nlick</h3>
+                <p>UwU lick meeeee</p>
+              </div>
+              <div class="command-card nsfw hide">
+                <h3>nbang</h3>
+                <p>_uck _e in the a__ tonight</p>
+              </div>
+              <div class="command-card nsfw hide">
+                <h3>nsuck</h3>
+                <p>Self-Expla-ahhhhh--ntory</p>
+              </div>
+              <!-- Utility -->
+              <div class="command-card util hide">
+                <h3>Credit/Credits</h3>
+                <p>
+                  Show the Takumi Team credits :)
+                </p>
+              </div>
+              <div class="command-card util hide">
+                <h3>clean [amount]</h3>
+                <p>
+                  Clean some messages that I sent!
+                </p>
+              </div>
+              <div class="command-card util hide">
+                <h3>translate [to-language] [sentence]</h3>
+                <p>
+                  Don't understand what he said? Translate it right away!
+                </p>
+              </div>
+              <div class="command-card util hide">
+                <h3>Echo</h3>
+                <p>
+                  Ask me to say anything! No, anything really
+                </p>
+              </div>
+              <div class="command-card util hide">
+                <h3>invite</h3>
+                <p>
+                  Give invite links for both the bot and the support server
+                </p>
+              </div>
+              <div class="command-card util hide">
+                <h3>Ping</h3>
+                <p>PONG! Get bot latency</p>
+              </div>
+              <div class="command-card util hide">
+                <h3>Userinfo</h3>
+                <p>
+                  Get info about users or yourself
+                </p>
+              </div>
+              <div class="command-card util hide">
+                <h3>weather [city]</h3>
+                <p>
+                  Show the weather somewhere
+                </p>
+              </div>
+              <div class="command-card util hide">
+                <h3>dndtz</h3>
+                <p>
+                  Get the current time for my DND team [okay maybe not that useful]
+                </p>
+              </div>
+              <div class="command-card util hide">
+                <h3>Vote</h3>
+                <p>
+                  Vote for the Takumi server on Top.gg!
+                </p>
+              </div>
+              <div class="command-card util hide">
+                <h3>senddm [user] [content]</h3>
+                <p>
+                  Send someone a DM
+                </p>
+              </div>
+              <div class="command-card util hide">
+                <h3>avatar [user]</h3>
+                <p>
+                  Get someone's avatar
+                </p>
+              </div>
+              <div class="command-card util hide">
+                <h3>Twitter</h3>
+                <p>
+                  Show the Takumi Team's Twitter account:)
+                </p>
+              </div>
+      
+              <!-- Stariles -->
+              <div class="command-card sf hide">
+                <h3>Register</h3>
+                <p>
+                  Add your private key to the bot!
+                </p>
+              </div>
+              <div class="command-card sf hide">
+                <h3>Logout</h3>
+                <p>
+                  Get your private key wiped from the bot
+                </p>
+              </div>
+              <div class="command-card sf hide">
+                <h3>Profileinfo</h3>
+                <p>
+                  Sends you some of your info in the DM's! Nothing to hide, huh?
+                </p>
+              </div>
+              <div class="command-card sf hide">
+                <h3>Upload</h3>
+                <p>
+                  Attach a file and watch it transfer to the stars.
+                </p>
+              </div>
+              <div class="command-card sf hide">
+                <h3>Files</h3>
+                <p>
+                  Lists all your uploaded files!
+                </p>
+              </div>
+              <div class="command-card sf hide">
+                <h3>Folders</h3>
+                <p>
+                  Lists all your uploaded folders!
+                </p>
+              </div>
+              <div class="command-card sf hide">
+                <h3>Droppers</h3>
+                <p>List those droppers!</p>
+              </div>
+              <div class="command-card sf hide">
+                <h3>sinvite</h3>
+                <p>
+                  Gets the Starfiles bot invite!
+                </p>
+              </div>
+              <div class="command-card sf hide">
+                <h3>scredits</h3>
+                <p>
+                  Show who created the Starfiles commands!
+                </p>
+              </div>
+            </div>
+          </main>
+
+          <footer class="mt-auto ">
+            <p>2020-2021 Made by CraftedVortex, MG32, Sangster</p>
         </footer>
-
-    </div>
-</body>
-
-</html>
+      
+          <script src="js/commandSwitcher.js"></script>
+        </body>
+      </html>
